@@ -1,0 +1,33 @@
+body {
+  margin: 300px;
+  display: grid;
+  column-gap: 3px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 20px;
+  /* border: 2px solid black; */
+  /* border-radius: 5px; */
+  border-color: rgb(131, 12, 12);
+  width: 150px;
+}
+button {
+  padding: 15px;
+  color: white;
+  background-color: rgb(2, 2, 56);
+  border-color: antiquewhite;
+  font-size: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.a {
+  grid-column: 1/-1;
+  height: 80px;
+}
+.b {
+  color: orangered;
+  /* border-radius: 300%; */
+}
+
+.f {
+  background-color: rgb(24, 24, 70);
+  /* border-radius: 300%; */
+}
